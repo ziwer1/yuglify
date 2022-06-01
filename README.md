@@ -68,13 +68,13 @@ files.
 
 ```javascript
 {
-    mangle: true,
+    mangle: false,
     squeeze: true,
-    semicolon: false,
+    semicolon: true,
     lift_vars: false,
     mangle_toplevel: true,
     no_mangle_functions: true,
-    max_line_length: 6000
+    max_line_length: 0
 }
 ```
 
