@@ -1,5 +1,5 @@
 {
-  "name": "yuglify",
+  "name": "@ziwer1/yuglify",
   "description": "A fork of yuglify by YUI",
   "version": "2.0.1",
   "dependencies": {
@@ -15,7 +15,7 @@
   },
   "main": "./lib/index.js",
   "bin": {
-    "yuglify": "./bin/yuglify"
+    "yuglify": "bin/yuglify"
   },
   "scripts": {
     "pretest": "jshint --config ./node_modules/yui-lint/jshint.json ./lib/*.js ./bin/yuglify",
@@ -33,6 +33,13 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ziwer1/yuglify.git"
-  }
+    "url": "git+https://github.com/ziwer1/yuglify.git"
+  },
+  "homepage": "https://github.com/ziwer1/yuglify#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "author": "ziwer1",
+  "license": "ISC"
 }
