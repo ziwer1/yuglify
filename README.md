@@ -26,7 +26,7 @@ with the name altered to `.min.js|css`.
 Required
 --------
 
-    npm install yuglify
+    npm install @ziwer1/yuglify
 
 
 ```javascript
