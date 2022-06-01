@@ -14,7 +14,7 @@ Build Status
 CLI Usage
 ----------
 
-    npm -g install yuglify
+    npm -g install @ziwer1/yuglify
 
 `yuglify` has a very simple CLI interface to allow you to compress files from the command line.
 
