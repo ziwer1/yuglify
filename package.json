@@ -1,7 +1,7 @@
 {
   "name": "yuglify",
-  "description": "cli wrapper for uglify and cssmin used by YUI",
-  "version": "2.0.0",
+  "description": "A fork of yuglify by YUI",
+  "version": "2.0.1",
   "dependencies": {
     "nopt": "~2.1.1",
     "uglify-js": "^3.1.4",
@@ -23,7 +23,7 @@
   },
   "preferGlobal": "true",
   "bugs": {
-    "url": "http://github.com/yui/yuglify/issues"
+    "url": "https://github.com/ziwer1/yuglify/issues"
   },
   "licenses": [
     {
@@ -33,6 +33,6 @@
   ],
   "repository": {
     "type": "git",
-    "url": "http://github.com/yui/yuglify.git"
+    "url": "https://github.com/ziwer1/yuglify.git"
   }
 }
