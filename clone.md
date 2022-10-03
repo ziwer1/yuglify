@@ -3,7 +3,7 @@ Instructions to Clone this repo
 
 The following are step-by-step instructions to make a clone of this repo and upload to NPM registry
 
-##### Pre-requisites
+### Pre-requisites:
 
 	1. A github.com account
 	2. An npmjs.com account
@@ -11,12 +11,12 @@ The following are step-by-step instructions to make a clone of this repo and upl
 	4. Git (installed on your computer)
 
 
-##### 1. Click the fork button on this repo https://github.com/ziwer1/yuglify
+### 1. Click the fork button on this repo https://github.com/ziwer1/yuglify
 
-##### 2. Clone from the fork you created above in step 1 using git.
+### 2. Clone from the fork you created above in step 1 using git.
 
-##### 3. Open package.json file and edit the following in your editor.
-```javascript
+### 3. Open `package.json` file in your editor and edit the following:
+```
 "name": "@ziwer1/yuglify"  --change using the format: @<npm account user or organisation name or scope>/<package name> e.g. @user4/yuglify
 "description": "A fork of yuglify by YUI",
 ...
@@ -33,29 +33,30 @@ The following are step-by-step instructions to make a clone of this repo and upl
 "author": "ziwer1", --change ziwer1 to your name.
 ```
 
-##### 4. Commit these changes using git
+### 4. Commit these changes using git
 
-##### 5. Make any other changes to the package and commit them.
+### 5. Make any other changes to the package and commit them.
 
 Update the npm version no. in `package.json` with every change.
+
 *If you don't update the version no. you will not be able to push to the npm registry.*
 
 Edit the version no. by opening `package.json` in your editor.
 
-##### OR
+### OR
 
 Run the following command AFTER committing a change to update the package version no. in package.json.
 
-	`npm version patch -m 'update package version'`
+`npm version patch -m 'update package version'`
 	
-	*This command will update the version no. in package.json, create a commit and add a git tag to it with that version no.*
+*This command will update the version no. in package.json, create a commit and add a git tag to it with that version no.*
 
 
-##### 6. login on the npm cli
+### 6. login on the npm cli
 		
 `npm login`
 
-##### 7. Publish to the npm registry
+### 7. Publish to the npm registry
 
 `npm publish`
 	
