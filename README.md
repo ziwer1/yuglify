@@ -5,7 +5,7 @@ yUglify
 with the default YUI configurations on each of them.
 
 
-[Instructions to make a clone of this repo](clone.md)
+#### [Instructions to make a clone of this repo](clone.md)
 
 
 Build Status

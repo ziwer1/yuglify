@@ -1,4 +1,4 @@
-Instructions to Clone this repo
+Instructions To Clone This Repo
 =======
 
 The following are step-by-step instructions to make a clone of this repo and push it to the NPM registry
