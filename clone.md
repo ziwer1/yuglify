@@ -1,7 +1,7 @@
 Instructions to Clone this repo
 =======
 
-The following are step-by-step instructions to make a clone of this repo and upload to NPM registry
+The following are step-by-step instructions to make a clone of this repo and push it to the NPM registry
 
 ### Pre-requisites:
 
@@ -37,7 +37,7 @@ The following are step-by-step instructions to make a clone of this repo and upl
 
 ### 5. Make any other changes to the package and commit them.
 
-Update the npm version no. in `package.json` with every change.
+Update the package version no. in `package.json` with every change.
 
 *If you don't update the version no. you will not be able to push to the npm registry.*
 
@@ -49,10 +49,10 @@ Run the following command AFTER committing a change to update the package versio
 
 `npm version patch -m 'update package version'`
 	
-*This command will update the version no. in package.json, create a commit and add a git tag to it with that version no.*
+*This command will update the version no. in package.json and make a commit.*
 
 
-### 6. login on the npm cli
+### 6. Login on the npm cli
 		
 `npm login`
 
@@ -60,9 +60,9 @@ Run the following command AFTER committing a change to update the package versio
 
 `npm publish`
 	
-##### OR
+### OR
 	
-if you want your package to be available publicly:
+If you want your package to be available publicly:
 
 `npm publish --access public` 
 
