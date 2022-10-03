@@ -68,7 +68,7 @@ files.
 
 ```javascript
 {
-    mangle: false,
+    mangle: true,
     squeeze: true,
     semicolon: true,
     lift_vars: false,
